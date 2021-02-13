@@ -43,7 +43,6 @@ requirements:
     - cmake
     - pkg-config
   host:
-    - python
     - sed
     - libnl3
   run:
@@ -53,7 +52,7 @@ about:
   home: https://github.com/linux-rdma/rdma-core
   license: GPL-2.0-only
   license_family: GPL
-  license_file: COPYING
+  license_file: COPYING.GPL2
   summary: 'RDMA Core Userspace Libraries and Daemons'
   description: |
     this is the userspace components for the Linux
